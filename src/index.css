@@ -20,18 +20,20 @@ header {
 }
 
 nav {
-  width: 10%;
+  /* width: 30%; */
   
 }
 
 menu {
-  width: 30%;
+  /* width: 30%; */
+  padding: 0 2rem 0 0;
 }
 
 menu ul {
   margin: 0;
   padding: 0;
   display: flex;
+  gap: 2rem;
   justify-content: space-around;
 }
 
