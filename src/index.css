@@ -13,6 +13,10 @@ code {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   height: 4rem;
@@ -58,7 +62,7 @@ menu ul li a:hover, a.active {
 
 main {
   width: 80%;
-  margin: 4rem auto;
+  margin: 8rem auto;
 }
 
 .header-box {
