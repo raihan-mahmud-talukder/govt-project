@@ -15,6 +15,36 @@ export const Home = () => {
                     <img src="images/hero.jpg" alt="Photo" />
                 </div>
             </div>
+            <div>
+                <section className="">
+                    <h2>What makes our chairs special</h2>
+                    <div className="feature">
+                        <div>
+                            <p><strong>Science meets design</strong></p>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+                                similique adipisci praesentium.
+                            </p>
+                        </div>
+                        <div>
+                            <p><strong>Maximal comfort</strong></p>
+                            <p>
+                                Reprehenderit optio placeat quasi excepturi architecto, explicabo
+                                facilis perspiciatis error maxime magnam.
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Ethical and sustainable</strong>
+                            </p>
+                            <p>
+                                Deleniti recusandae quidem nesciunt, eos dolorum iure, quaerat
+                                omnis est laudantium voluptatem voluptas!
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </main>
     )
 }
