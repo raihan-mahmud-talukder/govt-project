@@ -1,0 +1,45 @@
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    /* padding: 2rem 0; */
+    margin: 5rem 0;
+  }
+  
+  .header-box h1 {
+    font-size: 3rem;
+    text-align: justify;
+  }
+  
+  .header-box p {
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+  
+  .header-box a {
+    background: #087f5b;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    font-size: 1.25rem;
+    border-radius: 100px;
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+  }
+  
+  .header-section {
+    width: 50%;
+  }
+  
+  .header-image {
+    width: 40%;
+  }
+  
+  .header-box img {
+    width: 100%;
+    border-radius: 12px;
+  }
