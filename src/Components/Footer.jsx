@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
-        <>
-            Footer
-        </>
+        <footer>
+            Copyright &copy; 2023. All rights are reserved by Govt.
+        </footer>
     )
 }

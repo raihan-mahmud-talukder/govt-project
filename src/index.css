@@ -53,3 +53,13 @@ menu ul li a:hover {
   color: black;
 }
 
+footer {
+  text-align: center;
+  background: yellowgreen;
+  position: absolute;
+  bottom: 0;
+  width: 98.35%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
