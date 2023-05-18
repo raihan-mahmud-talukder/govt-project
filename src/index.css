@@ -128,6 +128,10 @@ main {
   padding: 0 1rem;
 } */
 
+.item {
+  width: 30%;
+}
+
 .feature .item p {
   text-align: justify;
   font-size: 1.25rem;

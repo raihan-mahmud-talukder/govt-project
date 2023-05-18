@@ -9,7 +9,7 @@ export const Home = () => {
                         relentlessly perfecting the chair. The result is a perfect blend of
                         beauty and comfort, that will have a lasting impact on your health.
                     </p>
-                    <a className="btn btn--big" href="#">Shop chairs</a>
+                    <a href="#">Shop chairs</a>
                 </section>
                 <div className='header-image'>
                     <img src="images/hero.jpg" alt="Photo" />
@@ -22,15 +22,13 @@ export const Home = () => {
                         <div className="item">
                             <p><strong>Science meets design</strong></p>
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
-                                similique adipisci praesentium.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nihil quidem alias rerum? Veritatis quaerat facere hic, ullam autem dolorum iusto voluptatem corrupti exercitationem consequatur, provident fuga. Est, consectetur. Placeat inventore magni alias libero quos, optio ad, accusamus odit suscipit excepturi tempora facilis quas ratione voluptas unde pariatur laborum deserunt.
                             </p>
                         </div>
                         <div className="item">
                             <p><strong>Maximal comfort</strong></p>
                             <p>
-                                Reprehenderit optio placeat quasi excepturi architecto, explicabo
-                                facilis perspiciatis error maxime magnam.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure at, perspiciatis molestias quas id accusantium fugiat omnis ipsum consequuntur sit aperiam delectus ducimus, cupiditate illum. Ducimus itaque possimus maxime dignissimos, ipsa vel excepturi recusandae architecto in magni distinctio maiores fuga voluptatibus inventore laboriosam minima quis eius nihil fugit eligendi neque?
                             </p>
                         </div>
                         <div className="item">
@@ -38,8 +36,7 @@ export const Home = () => {
                                 <strong>Ethical and sustainable</strong>
                             </p>
                             <p>
-                                Deleniti recusandae quidem nesciunt, eos dolorum iure, quaerat
-                                omnis est laudantium voluptatem voluptas!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis similique minus adipisci. Eaque a quibusdam voluptates illo architecto, explicabo magnam obcaecati error? Officiis iusto eos officia asperiores vero numquam doloremque quia vel laudantium consectetur modi obcaecati quae laboriosam, incidunt voluptatem omnis, sunt qui praesentium ad alias rerum culpa velit error.
                             </p>
                         </div>
                     </div>
