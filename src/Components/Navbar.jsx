@@ -1,4 +1,4 @@
-import { Link, Route, Routes } from "react-router-dom"
+import { Link, NavLink, Route, Routes } from "react-router-dom"
 import { Home } from "./Home"
 import { About } from "./About"
 import { Services } from "./Services"
@@ -11,10 +11,10 @@ export const Navbar = () => {
                 <nav>LOGO</nav>
                 <menu>
                     <ul>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/about'>About</Link></li>
-                        <li><Link to='/services'>Services</Link></li>
-                        <li><Link to='/contact'>Contact</Link></li>
+                        <li><NavLink to='/' className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink></li>
+                        <li><NavLink to='/about' className={({ isActive }) => (isActive ? "active" : "")}>About</NavLink></li>
+                        <li><NavLink to='/services' className={({ isActive }) => (isActive ? "active" : "")}>Services</NavLink></li>
+                        <li><NavLink to='/contact' className={({ isActive }) => (isActive ? "active" : "")}>Contact</NavLink></li>
                     </ul>
                 </menu>
             </header>

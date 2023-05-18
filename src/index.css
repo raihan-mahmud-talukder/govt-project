@@ -51,7 +51,8 @@ menu ul li a {
   text-transform: uppercase;
 }
 
-menu ul li a:hover {
+
+menu ul li a:hover, a.active {
   color: black;
 }
 
