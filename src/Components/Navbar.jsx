@@ -7,14 +7,17 @@ import { Contact } from "./Contact"
 export const Navbar = () => {
     return (
         <>
-            <nav>
-                <ul>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/about'>About</Link></li>
-                    <li><Link to='/services'>Services</Link></li>
-                    <li><Link to='/contact'>Contact</Link></li>
-                </ul>
-            </nav>
+            <header>
+                <nav>LOGO</nav>
+                <menu>
+                    <ul>
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/about'>About</Link></li>
+                        <li><Link to='/services'>Services</Link></li>
+                        <li><Link to='/contact'>Contact</Link></li>
+                    </ul>
+                </menu>
+            </header>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

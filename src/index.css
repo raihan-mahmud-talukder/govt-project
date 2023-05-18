@@ -12,23 +12,44 @@ code {
     monospace;
 }
 
-
-nav {
+header {
+  display: flex;
+  justify-content: space-between;
+  
   background: green;
 }
 
-nav ul {
-  display: flex;
+nav {
+  width: 10%;
+  
+}
+
+menu {
+  width: 30%;
+}
+
+menu ul {
   margin: 0;
+  padding: 0;
+  display: flex;
   justify-content: space-around;
 }
 
-nav ul li {
+menu ul li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li a {
+menu ul li a {
   color: white;
   text-decoration: none;
   font-size: 1.25rem;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
+
+menu ul li a:hover {
+  color: black;
+}
+
