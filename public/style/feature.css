@@ -1,27 +1,27 @@
 .feature-box {
-    margin: 5rem 0;
-  }
-  
-  .feature {
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .feature-box h2 {
-    font-size: 2.25rem;
-  }
-  
-  /* .feature .item {
+  margin: 5rem 0;
+}
+
+.feature {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature-box h2 {
+  font-size: 2.25rem;
+}
+
+/* .feature .item {
     padding: 0 1rem;
   } */
-  
-  .item {
-    width: 30%;
-  }
-  
-  .feature .item p {
-    text-align: justify;
-    font-size: 1.25rem;
-  }
+
+.item {
+  width: 30%;
+}
+
+.feature .item p {
+  text-align: justify;
+  font-size: 1.25rem;
+}
