@@ -1,4 +1,4 @@
-import { Link, NavLink, Route, Routes } from "react-router-dom"
+import { NavLink, Route, Routes } from "react-router-dom"
 import { Home } from "./Home"
 import { About } from "./About"
 import { Services } from "./Services"
@@ -9,6 +9,10 @@ export const Navbar = () => {
         <>
             <header>
                 <nav>LOGO</nav>
+                <input id="menu-toggle" type="checkbox" />
+                <label className='menu-button-container' htmlFor="menu-toggle">
+                    <div className='menu-button'></div>
+                </label>
                 <menu>
                     <ul>
                         <li><NavLink to='/' className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink></li>

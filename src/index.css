@@ -17,54 +17,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  height: 4rem;
-  background: green;
-}
 
-/* nav {
-  width: 30%;
-  
-} */
-
-menu {
-  /* width: 30%; */
-  padding: 0 2rem 0 0;
-}
-
-menu ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 2rem;
-  justify-content: space-around;
-}
-
-menu ul li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-menu ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.25rem;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-
-menu ul li a:hover,
-a.active {
-  color: black;
-}
 
 main {
   width: 80%;
